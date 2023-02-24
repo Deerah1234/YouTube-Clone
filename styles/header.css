@@ -1,0 +1,240 @@
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #fff;
+    height: 57px;
+}
+
+.left-section-container {
+    display: flex;
+    width: 160px;
+    /* background-color: lightblue; */
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.hamburger-menu-container {
+    margin: 0 15px 0 0;
+    padding: 8px;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hamburger-menu-container:hover {
+    background-color: rgb(229, 229, 229);
+}
+
+.hamburger-menu-container img {
+    width: 24px;
+    vertical-align: middle;
+}
+
+.youtube-logo-container {
+    position: relative;
+}
+
+.youtube-logo-container .location {
+    position: absolute;
+    top: -5px;
+    right: -17px;
+    font-size: 0.6rem;
+    color: rgba(66, 66, 66, 0.804);
+}
+
+.youtube-logo-container img {
+    width: 90px;
+}
+
+.middle-section-container {
+    display: flex;
+    align-items: center;
+    flex: 0 1 728px;
+    /* background: lightpink; */
+    margin: 0 140px 0 189px;
+}
+
+.middle-section-container input {
+    width: 76%;
+    height: 36px;
+    padding-left: 17px;
+    font-size: 16px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 40px 0 0 40px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.middle-section-container input::placeholder {
+    font-family: Roboto, Arial;
+}
+
+.search-button-container {
+    height: 40px;
+    width: 63px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 0 40px 40px 0;
+    border: 1px solid  rgb(204, 204, 204);
+    margin-left: -1px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.search-button-container:hover {
+    background-color: rgb(241, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px 0px
+}
+
+.search-button-container img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.voice-search-container {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 7px;
+    background: white;
+    border: none;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.voice-search-container:hover {
+    background: rgb(229, 229, 229);
+}
+
+.voice-search-container img {
+    width: 24px;
+    vertical-align: middle;
+}
+
+.right-section-container {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    /* background: lightblue; */
+    margin-right: 16px;
+}
+
+.upload-container, .notification-container {
+    padding: 8px;
+    border: none;
+    background: rgb(255, 255, 255);
+    border-radius: 3em;
+}
+
+.upload-container:hover, .notification-container:hover {
+    background: rgb(229, 229, 229);
+}
+
+.upload-container img, .notification-container img {
+    width: 24px;
+    vertical-align: middle;
+}
+
+.notification-container {
+    position: relative;
+}
+
+.notification-badge {
+    position: absolute;
+    font-family: Roboto, Arial;
+    background-color: rgb(204, 0, 0);
+    border: 2px solid #fff;
+    width: 18px;
+    text-align: center;
+    border-radius: 22px;
+    padding: 1px 2px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    right: -6px;
+    top: 3px;
+}
+
+.user-profile-picture-container img {
+    width: 31px;
+    vertical-align: middle;
+    border-radius: 40px;
+    margin-left: 12px;
+    border: 1px solid white;
+}
+
+.tabs {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 56px 0 24px 90px;
+    /* background-color: lightblue; */
+    height: 56px;
+}
+
+.tabs .tab-link {
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: black;
+    padding: 7px 12px;
+    border-radius: 7px;
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.15s ease-out 0.05s;
+}
+
+.tabs .tab-link:hover {
+    background-color: rgba(0, 0, 0, 0.112);
+}
+
+.tabs .computer-programming-tab {
+    flex-shrink: 0;
+    padding: 7px 12px;
+    border-radius: 7px;
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.tabs .computer-programming-tab:hover {
+    background-color: black;
+    color: white;
+}
+
+.tabs .more-tabs-container {
+    position: absolute;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0.309));
+    width: 85px;
+    height: 100%;
+    right: 0px;
+}
+
+.more-tabs-container button {
+    margin: 10px 0 0 48px;
+    vertical-align: middle;
+    border: none;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.more-tabs-container button:hover {
+    background: rgb(229, 229, 229);
+}
+
+.more-tabs-container img {
+    width: 23px;
+}
