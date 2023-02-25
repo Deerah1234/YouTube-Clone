@@ -16,14 +16,14 @@ header {
     /* background-color: lightblue; */
     align-items: center;
     flex-shrink: 0;
-    margin-left: 20px;
+    margin-left: 16px;
 }
 
 .hamburger-menu-container {
     margin: 0 15px 0 0;
-    padding: 8px;
+    padding: 6%;
     background-color: transparent;
-    border-radius: 20px;
+    border-radius: 40px;
     cursor: pointer;
 }
 
@@ -50,6 +50,7 @@ header {
 
 .youtube-logo-container img {
     width: 90px;
+    vertical-align: middle;
 }
 
 .middle-section-container {
@@ -68,10 +69,17 @@ header {
     border: 1px solid rgb(204, 204, 204);
     border-radius: 40px 0 0 40px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    outline: none;
 }
 
 .middle-section-container input::placeholder {
     font-family: Roboto, Arial;
+}
+
+.search-button-container img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
 }
 
 .search-button-container {
@@ -88,13 +96,8 @@ header {
 .search-button-container:hover {
     background-color: rgb(241, 240, 240);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px 0px
-}
+} 
 
-.search-button-container img {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-}
 
 .voice-search-container {
     height: 40px;
@@ -123,7 +126,7 @@ header {
     justify-content: space-evenly;
     flex-shrink: 0;
     /* background: lightblue; */
-    margin-right: 16px;
+    margin-right: 20px;
 }
 
 .upload-container, .notification-container {
@@ -131,6 +134,7 @@ header {
     border: none;
     background: rgb(255, 255, 255);
     border-radius: 3em;
+    cursor: pointer;
 }
 
 .upload-container:hover, .notification-container:hover {
@@ -167,7 +171,8 @@ header {
     vertical-align: middle;
     border-radius: 40px;
     margin-left: 12px;
-    border: 1px solid white;
+    outline: 1px solid white;
+    cursor: pointer;
 }
 
 .tabs {
@@ -213,8 +218,8 @@ header {
 
 .tabs .more-tabs-container {
     position: absolute;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0.309));
-    width: 85px;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.268), rgb(255, 255, 255), rgba(255, 255, 255, 0.309));
+    width: 84px;
     height: 100%;
     right: 0px;
 }
