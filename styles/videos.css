@@ -88,12 +88,12 @@
     padding: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.318);
     pointer-events: none;
-    opacity: 0;
+    left: -10000px;
     transition: opacity 0.15s;
 }
 
 .channel-picture-container:hover .popup-profile-info-container {
-    opacity: 1;
+    left: 0;
 }
 
 .popup-channel-profile {
