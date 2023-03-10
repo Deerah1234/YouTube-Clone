@@ -52,12 +52,6 @@
     width: 100%;
 }
 
-/* @media screen {
- .thumbnail-container img {
-    width: 600px;
- }   
-} */
-
 .video-info-container {
     display: flex;
 }
