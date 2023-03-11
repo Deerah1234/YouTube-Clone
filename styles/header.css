@@ -149,7 +149,7 @@ header {
 
 .notification-badge {
     position: absolute;
-    font-family: Roboto, Arial;
+    font-family: 'Roboto', Arial;
     background-color: rgb(204, 0, 0);
     border: 2px solid #fff;
     width: 18px;
